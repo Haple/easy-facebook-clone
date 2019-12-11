@@ -1,9 +1,14 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import PostList from './components/PostList';
 
 function App() {
   return (
-    <h1>Easy Facebook Clone</h1>
+    <>
+      <Header />
+      <PostList />
+    </>
   );
 }
 
